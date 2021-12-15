@@ -153,7 +153,7 @@ namespace Marginean_Catalin_Lab5
                         Make = makeTextBox.Text.Trim()
                     };
                     ctx.Inventories.Add(inventory);
-                    inventoryViewSource.View.Refresh();
+                    inventoryViewSource.View.Refresh(); 
                     ctx.SaveChanges();
                 }
                 catch (DataException ex)
